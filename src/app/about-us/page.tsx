@@ -79,7 +79,7 @@ export default function AboutUsPage() {
               <div className="absolute inset-0 bg-[#0066FF] rounded-full filter blur-[120px] opacity-10 pointer-events-none"></div>
               <div className="bg-gray-50 border border-gray-150 rounded-3xl p-6 relative z-10">
                 <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600"
+                  src="/images/pritam-chatterjee.jpg"
                   alt="Pritam Chatterjee Portrait"
                   className="w-full h-80 object-cover rounded-2xl shadow-sm mb-6"
                 />

@@ -35,7 +35,7 @@ export default async function AuthorPage({ params }: Props) {
   const author = posts[0]?.author || {
     name: "Pritam Chatterjee",
     slug: "pritam-chatterjee",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+    avatar: "/images/pritam-chatterjee.jpg",
     bio: "Pritam Chatterjee is a seasoned SEO Specialist & Digital Marketing Consultant with 5+ years of experience helping businesses scale their organic visibility, maximize ROI on ad spend, and build high-converting web applications.",
     role: "Founder & Chief SEO Consultant",
   };

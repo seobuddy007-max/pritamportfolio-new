@@ -40,7 +40,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/pritam-chatterjee6/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-gray-400 hover:text-white hover:border-[#0066FF] hover:bg-[#0066FF]/10 transition-all duration-300"

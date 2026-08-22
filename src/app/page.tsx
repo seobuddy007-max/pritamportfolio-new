@@ -38,7 +38,7 @@ export default function Home() {
           "longitude": "88.4331"
         },
         "sameAs": [
-          "https://linkedin.com",
+          "https://www.linkedin.com/in/pritam-chatterjee6/",
           "https://twitter.com"
         ],
         "priceRange": "$$"
