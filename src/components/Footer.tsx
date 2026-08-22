@@ -70,7 +70,7 @@ export default function Footer() {
               </a>
             </div>
 
-            {/* Static Floating Metrics in Background */}
+            {/* Static Metrics */}
             <div className="grid grid-cols-3 gap-4 pt-4 border-t border-white/5 max-w-sm">
               <div>
                 <div className="text-xl font-bold text-white">#1 Rank</div>
@@ -87,42 +87,80 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Links Col 1: Services */}
-          <div className="lg:col-span-3 flex flex-col gap-6">
+          {/* Links Col 1: Navigation */}
+          <div className="lg:col-span-2 flex flex-col gap-6">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-gray-400">
-              Expertise Areas
+              Navigation
             </h4>
             <ul className="flex flex-col gap-3 text-sm text-gray-400">
               <li>
-                <Link href="/#services" className="hover:text-white transition-colors">
-                  Technical SEO Audit
+                <Link href="/" className="hover:text-white transition-colors">
+                  Home
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-white transition-colors">
-                  Enterprise SEO Strategy
+                <Link href="/about-us" className="hover:text-white transition-colors">
+                  About Us
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-white transition-colors">
-                  Google PPC Ads Management
+                <Link href="/portfolio" className="hover:text-white transition-colors">
+                  Portfolio &amp; Proof
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-white transition-colors">
-                  Facebook Retargeting Ads
+                <Link href="/blogs" className="hover:text-white transition-colors">
+                  Blog &amp; Insights
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-white transition-colors">
-                  Conversion Rate Optimization
+                <Link href="/contact-us" className="hover:text-white transition-colors">
+                  Contact Us
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Links Col 2: Newsletter */}
-          <div className="lg:col-span-4 flex flex-col gap-6">
+          {/* Links Col 2: HTML Sitemap */}
+          <div className="lg:col-span-2 flex flex-col gap-6">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#F59E0B]">
+              HTML Sitemap
+            </h4>
+            <ul className="flex flex-col gap-2.5 text-sm text-gray-400">
+              <li>
+                <Link
+                  href="/seo-expert-in-kolkata"
+                  className="text-white hover:text-[#38BDF8] font-medium transition-colors flex items-center gap-1.5"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#F59E0B]"></span>
+                  SEO Expert in Kolkata
+                </Link>
+              </li>
+              <li>
+                <Link href="/seo-expert-in-kolkata#services" className="hover:text-white transition-colors text-xs text-gray-400 pl-3">
+                  Kolkata SEO Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/seo-expert-in-kolkata#ai-overview" className="hover:text-white transition-colors text-xs text-gray-400 pl-3">
+                  AI Overview &amp; GEO
+                </Link>
+              </li>
+              <li>
+                <Link href="/website-audit" className="hover:text-white transition-colors">
+                  Website Audit
+                </Link>
+              </li>
+              <li>
+                <Link href="/sitemap.xml" className="hover:text-white transition-colors text-xs text-gray-500">
+                  XML Sitemap
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Links Col 3: Newsletter */}
+          <div className="lg:col-span-3 flex flex-col gap-6">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-gray-400">
               Weekly SEO Intelligence
             </h4>
@@ -158,11 +196,11 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="flex flex-col sm:flex-row items-center justify-between pt-8 text-xs text-gray-500 gap-4">
           <div>
-            &copy; {new Date().getFullYear()} Pritam Chatterjee. All rights reserved. Designed for Hyper-Growth.
+            &copy; {new Date().getFullYear()} Pritam Chatterjee. All rights reserved. Designed &amp; created by Pritam Chatterjee.
           </div>
           <div className="flex items-center gap-6">
-            <Link href="/privacy" className="hover:text-white">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white">Terms of Service</Link>
+            <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
+            <Link href="/terms-condition" className="hover:text-white">Terms of Service</Link>
             <button
               onClick={scrollToTop}
               className="flex items-center gap-1.5 hover:text-white transition-colors cursor-pointer group"
