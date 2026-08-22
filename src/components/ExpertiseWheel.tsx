@@ -41,18 +41,25 @@ export default function ExpertiseWheel() {
     const container = containerRef.current;
     if (!container) return;
 
+    let rafId: number;
     const ctx = gsap.context(() => {
       ScrollTrigger.create({
         trigger: container,
         start: "top bottom",
         end: "bottom top",
         onUpdate: (self) => {
-          setScrollRotation(self.progress * Math.PI * 2);
+          cancelAnimationFrame(rafId);
+          rafId = requestAnimationFrame(() => {
+            setScrollRotation(self.progress * Math.PI * 2);
+          });
         },
       });
     });
 
-    return () => ctx.revert();
+    return () => {
+      cancelAnimationFrame(rafId);
+      ctx.revert();
+    };
   }, []);
 
   const handleMouseMove = (e: React.MouseEvent) => {

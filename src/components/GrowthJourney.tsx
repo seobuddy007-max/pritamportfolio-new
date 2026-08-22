@@ -73,7 +73,7 @@ export default function GrowthJourney() {
           {/* Vertical Connecting Path Line */}
           <div className="absolute left-8 md:left-1/2 top-4 bottom-4 w-1 bg-gray-100 rounded-full -translate-x-1/2 hidden sm:block">
             <motion.div
-              style={{ scaleY, originY: 0 }}
+              style={{ scaleY, transformOrigin: "top" }}
               className="w-full h-full bg-gradient-to-b from-[#0066FF] via-[#4DA3FF] to-[#7DD3FC] rounded-full"
             />
           </div>
@@ -89,7 +89,7 @@ export default function GrowthJourney() {
                   key={idx}
                   initial={{ opacity: 0, y: 40 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-100px" }}
+                  viewport={{ once: true, amount: 0.2 }}
                   transition={{ duration: 0.6, delay: idx * 0.1 }}
                   className="flex flex-col sm:flex-row items-start justify-start w-full relative"
                 >
