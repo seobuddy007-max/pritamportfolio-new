@@ -2,19 +2,14 @@ import { MetadataRoute } from "next";
 import { getAllPosts, getAllCategories } from "@/lib/wordpress";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://pritamchatterjee.com";
+  const baseUrl = "https://www.pritamchatterjee.com";
 
-  // Static routes
+  // Static routes (only existing live pages)
   const routes = [
     "",
     "/seo-expert-in-kolkata",
     "/portfolio",
     "/blogs",
-    "/services",
-    "/services/seo",
-    "/services/seo/kolkata",
-    "/services/ppc",
-    "/services/web-development",
     "/website-audit",
     "/contact-us",
     "/about-us",
