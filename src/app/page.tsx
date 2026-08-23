@@ -17,11 +17,11 @@ export default function Home() {
     "@graph": [
       {
         "@type": "ProfessionalService",
-        "@id": "https://pritamchatterjee.com/#consulting",
+        "@id": "https://www.pritamchatterjee.com/#consulting",
         "name": "Pritam Chatterjee | SEO & Digital Marketing Consultant",
-        "url": "https://pritamchatterjee.com",
+        "url": "https://www.pritamchatterjee.com",
         "telephone": "+919876543210",
-        "logo": "https://pritamchatterjee.com/logo.png",
+        "logo": "https://www.pritamchatterjee.com/logo.png",
         "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
         "description": "Premium SEO, Next.js web design, and paid advertising consultation helping enterprise businesses scale search rankings and convert leads.",
         "address": {
@@ -45,7 +45,7 @@ export default function Home() {
       },
       {
         "@type": "FAQPage",
-        "@id": "https://pritamchatterjee.com/#faq",
+        "@id": "https://www.pritamchatterjee.com/#faq",
         "mainEntity": [
           {
             "@type": "Question",

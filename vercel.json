@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "pritamchatterjee.com"
+        }
+      ],
+      "destination": "https://www.pritamchatterjee.com/:path*",
+      "permanent": true
+    }
+  ]
+}

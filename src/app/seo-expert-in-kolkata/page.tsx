@@ -59,13 +59,13 @@ export const metadata: Metadata = {
     title: "SEO Expert in Kolkata | Top SEO Freelancer Pritam Chatterjee",
     description:
       "Transform your search visibility with Kolkata's leading SEO consultant. Get agency-level results at a fraction of agency costs. 5+ years experience.",
-    url: "https://pritamchatterjee.com/seo-expert-in-kolkata",
+    url: "https://www.pritamchatterjee.com/seo-expert-in-kolkata",
     siteName: "Pritam Chatterjee - Digital Growth & SEO",
     locale: "en_IN",
     type: "website",
   },
   alternates: {
-    canonical: "https://pritamchatterjee.com/seo-expert-in-kolkata",
+    canonical: "https://www.pritamchatterjee.com/seo-expert-in-kolkata",
   },
 };
 
@@ -75,7 +75,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://pritamchatterjee.com/#person",
+      "@id": "https://www.pritamchatterjee.com/#person",
       name: "Pritam Chatterjee",
       jobTitle: "SEO Expert & Senior SEO Freelancer in Kolkata",
       address: {
@@ -85,13 +85,13 @@ const jsonLd = {
         addressCountry: "IN"
       },
       description: "SEO Expert and top SEO freelancer in Kolkata with 5+ years of experience in organic growth, technical SEO audits, and AI Overview (GEO) optimization.",
-      url: "https://pritamchatterjee.com/seo-expert-in-kolkata"
+      url: "https://www.pritamchatterjee.com/seo-expert-in-kolkata"
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://pritamchatterjee.com/#localbusiness",
+      "@id": "https://www.pritamchatterjee.com/#localbusiness",
       name: "Pritam Chatterjee - SEO Expert Kolkata",
-      image: "https://pritamchatterjee.com/og-image.jpg",
+      image: "https://www.pritamchatterjee.com/og-image.jpg",
       priceRange: "₹₹",
       address: {
         "@type": "PostalAddress",
@@ -106,7 +106,7 @@ const jsonLd = {
         latitude: 22.5726,
         longitude: 88.4331
       },
-      url: "https://pritamchatterjee.com/seo-expert-in-kolkata"
+      url: "https://www.pritamchatterjee.com/seo-expert-in-kolkata"
     },
     {
       "@type": "FAQPage",
@@ -252,7 +252,7 @@ export default function SeoExpertKolkataPage() {
                     {/* Simulated Google Snippet Card */}
                     <div className="bg-[#F8FAFC] border border-[#0066FF]/20 rounded-2xl p-5 space-y-2 shadow-sm">
                       <div className="flex items-center gap-2 text-xs text-emerald-600 font-mono font-semibold">
-                        <span>https://pritamchatterjee.com</span>
+                        <span>https://www.pritamchatterjee.com</span>
                         <span className="text-slate-400">› seo-expert-in-kolkata</span>
                       </div>
                       <h3 className="text-lg font-bold text-[#0066FF] hover:underline cursor-pointer">

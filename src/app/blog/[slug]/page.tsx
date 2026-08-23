@@ -57,8 +57,8 @@ export default async function BlogPostPage({ params }: PageProps) {
     "@graph": [
       {
         "@type": "BlogPosting",
-        "@id": `https://pritamchatterjee.com/blog/${post.slug}/#post`,
-        "url": `https://pritamchatterjee.com/blog/${post.slug}`,
+        "@id": `https://www.pritamchatterjee.com/blog/${post.slug}/#post`,
+        "url": `https://www.pritamchatterjee.com/blog/${post.slug}`,
         "headline": post.title,
         "datePublished": post.date,
         "dateModified": post.date,
@@ -67,7 +67,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         "author": {
           "@type": "Person",
           "name": post.author.name,
-          "url": `https://pritamchatterjee.com/blog/author/${post.author.slug}`,
+          "url": `https://www.pritamchatterjee.com/blog/author/${post.author.slug}`,
           "image": post.author.avatar
         },
         "publisher": {
@@ -75,31 +75,31 @@ export default async function BlogPostPage({ params }: PageProps) {
           "name": "Pritam Chatterjee Consulting",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://pritamchatterjee.com/logo.png"
+            "url": "https://www.pritamchatterjee.com/logo.png"
           }
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": `https://pritamchatterjee.com/blog/${post.slug}/#breadcrumb`,
+        "@id": `https://www.pritamchatterjee.com/blog/${post.slug}/#breadcrumb`,
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://pritamchatterjee.com"
+            "item": "https://www.pritamchatterjee.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://pritamchatterjee.com/#blog"
+            "item": "https://www.pritamchatterjee.com/#blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": post.title,
-            "item": `https://pritamchatterjee.com/blog/${post.slug}`
+            "item": `https://www.pritamchatterjee.com/blog/${post.slug}`
           }
         ]
       }
